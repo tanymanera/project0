@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+        <!-- http://getbootstrap.com/docs/4.1/ -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+        <!-- MathJax -->
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+        <link href="./static/styles.css" rel="stylesheet">
+        <link href="./static/sass.css" rel="stylesheet">
+
+        <title>Maxwell's Equations</title>
+
+    </head>
+
+    <body>
+
+        <!-- http://getbootstrap.com/docs/4.1/components/navbar/ -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand mb-1 h1" href="/index">Maxwell's equations</a>
+            <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" type="button" data-target="#navbarNav" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gausslaw">Gauss's Law</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gausslawmagnetism">Gauss's Law for magnetism</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./amperelaw">Ampere's Law</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faradaylaw">Faraday's Law</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./symbols">Symbols</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- http://getbootstrap.com/docs/4.1/layout/overview/#containers -->
+        <main class="container-fluid p-5">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4">$$ \vec{\nabla}\cdot\vec{E}=4\pi\rho $$</h1>
+                <p class="lead">Gauss's Law.</p>
+              </div>
+            </div>
+            <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <h2 class="display-6">Flux Theorem.</h2>
+                    </div>
+                    <div class="col-lg-8 col-sm-6">
+                        <p>Gauss's law describes the relationship between a static electric field and the electric
+                        charges that cause it: a static electric field points away from positive charges and
+                        towards negative charges, and the net outflow of the electric field through any closed
+                        surface is proportional to the charge enclosed by the surface. Picturing the electric
+                        field by its field lines, this means the field lines begin at positive electric charges
+                        and end at negative electric charges. 'Counting' the number of field lines passing through
+                        a closed surface yields the total charge (including bound charge due to polarization of
+                        material) enclosed by that surface, divided by dielectricity of free space (the vacuum permittivity).</p>
+                        <cite>Wikipedia</cite>
+                    </div>
+            </div>
+            <div class="footer">
+                <p>Tany Manera</p>
+            </div>
+
+        </main>
+
+    </body>
+
+</html>

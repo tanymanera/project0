@@ -1,0 +1,32 @@
+.jumbotron-fluid {
+  background-color: lightblue; }
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  text-align: right; }
+  .footer p {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-size: 22px; }
+
+.scientists {
+  background-color: lightblue; }
+
+.even, .odd {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px; }
+
+.even {
+  color: white;
+  background-color: #3269a8; }
+
+.odd {
+  color: black;
+  background-color: lightblue; }
+
+/*# sourceMappingURL=sass.css.map */
