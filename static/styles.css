@@ -1,12 +1,12 @@
 @media (max-width: 810px) {
     #ampere {
-        font-size: 20px;
+        font-size: 5.5vw;
     }
 }
 
 @media (max-width: 590px) {
     #faraday {
-        font-size: 20px;
+        font-size: 5.5vw;
     }
 }
 
