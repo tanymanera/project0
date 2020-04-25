@@ -10,6 +10,18 @@
     }
 }
 
+@media (max-width: 720px) {
+    #gauss {
+        font-size: 5.5vw;
+    }
+}
+
+@media (max-width: 720px) {
+    #Bgauss {
+        font-size: 5.5vw;
+    }
+}
+
 img {
     width: 80%;
 }
